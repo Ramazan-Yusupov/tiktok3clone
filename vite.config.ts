@@ -6,7 +6,7 @@ import path from "path";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/tiktok3/",
+  base: "/tiktok3clone/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
